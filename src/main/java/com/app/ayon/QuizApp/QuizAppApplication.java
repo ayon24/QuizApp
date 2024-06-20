@@ -1,4 +1,4 @@
-package com.ayon.quizapp;
+package com.app.ayon.QuizApp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,19 +1,18 @@
-package com.ayon.quizapp.model;
+package com.app.ayon.QuizApp.model;
+
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.persistence.Table;
 import lombok.Data;
 
 @Data
 @Entity
-//@Table(name = "question")
-public class Question {	
-	
-	@Id
-	@GeneratedValue(strategy=GenerationType.SEQUENCE)
+public class Question {
+
+    @Id
+    @GeneratedValue(strategy= GenerationType.SEQUENCE)
     private Integer id;
     private String questionTitle;
     private String option1;
@@ -23,5 +22,5 @@ public class Question {
     private String rightAnswer;
     private String difficultyLevel;
     private String category;
-	
+
 }

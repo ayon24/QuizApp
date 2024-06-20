@@ -1,11 +1,10 @@
-package com.ayon.quizapp.data;
+package com.app.ayon.QuizApp.data;
 
+
+import com.app.ayon.QuizApp.model.Question;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.ayon.quizapp.model.Question;
-
 @Repository
 public interface QuestionsRepository extends JpaRepository<Question, Integer> {
-
 }
